@@ -48,6 +48,7 @@ Launch a Clojure REPL using the Clojure CLI tools and the Rebel Readline:
 ;; `:CljEval` command but I found that to be a little clunky to do manually.
 ;; If I do end up using this workflow more often, I'll consider packaging
 ;; these steps up in a VimScript function.
+;; Out of habit, I send them from vim to a parallel tmux pane using vim-slime.
 (require 'figwheel.main.api)
 (figwheel.main.api/start {:mode :serve} "dev")
 (figwheel.main.api/cljs-repl "dev")

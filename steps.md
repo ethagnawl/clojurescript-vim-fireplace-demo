@@ -1,7 +1,0 @@
-- clojure -A:rebel (cli)
-- (require '[fullstack.helpers :refer :all]) (repl)
-- (start-nrepl-server!) (repl)
-- (require 'figwheel.main.api) (repl)
-- (figwheel.main.api/start {:mode :serve} "dev") (repl)
-- (figwheel.main.api/cljs-repl "dev") (repl)
-- :Piggieback (figwheel.main.api/repl-env "dev") (vim)
