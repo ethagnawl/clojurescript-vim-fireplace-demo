@@ -60,11 +60,14 @@ Launch a Clojure REPL using the Clojure CLI tools and the Rebel Readline:
 #### Vim-Fireplace
 You should now have an active connection to the ClojureScript REPL from within
 Vim and you can start evaluating forms using [the various Vim-Fireplace
-functions and commands](https://github.com/tpope/vim-fireplace/blob/master/doc/fireplace.txt#L126-L312).
+commands](https://github.com/tpope/vim-fireplace/blob/master/doc/fireplace.txt#L126-L312).
 
 For example, try evaluating the following using `cpp` :
 
 `(.log js/console "Hello, world!")`
+
+If the environment is working as expected, you'll see an entry in your
+browser's JavaScript console.
 
 
 ## Thanks
@@ -82,6 +85,8 @@ directly from the Figwheel/Vim guide linked below.
 Rebel Readline is also a wonderful library and makes the Clojure/Script REPL
 more helpful, useful and beautiful.
 ### Tim Pope
+Thanks to Tim Pope for Vim-Fireplace and every other line in my .vimrc which
+begins with `Plug 'tpope`.
 
 ## Resources
 - https://github.com/tpope/vim-fireplace/

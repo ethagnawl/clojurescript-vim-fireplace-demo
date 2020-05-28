@@ -3,9 +3,7 @@
   :bundle-once false
 }
 {:main fullstack.main
- ; :output-to "target/public/index.js"
- ; :output-dir "target/public"
  :target :bundle
  :bundle-cmd {:none ["npx" "webpack" "--mode=development" :output-to "-o" :final-output-to] :default ["npx" "webpack"]}
-  :closure-defines {cljs.core/*global* "window"}
+ :closure-defines {cljs.core/*global* "window"}
 }
