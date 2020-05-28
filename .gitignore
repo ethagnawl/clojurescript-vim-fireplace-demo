@@ -4,3 +4,4 @@ target
 .cljs_node_repl
 .nrepl-port
 .rebel_readline_history
+out
