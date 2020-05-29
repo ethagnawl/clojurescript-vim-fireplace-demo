@@ -5,6 +5,16 @@ This demo shows developers how to interact with a recent version of
 the ClojureScript REPL (specifically CLJS >= v1.10.741 and its new `:bundle`
 feature) via Vim-Fireplace and their _many_ friends.
 
+<table>
+    <tbody>
+        <tr align="center">
+            <td>
+                <img src="https://raw.githubusercontent.com/ethagnawl/clojurescript-vim-fireplace-demo/master/demo.gif" alt="Screenshot" width="80%" />
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 ## Why?
 When I saw the announcement about ClojureScript 1.10.741 and its new NPM
 and JavaScript bundler (e.g. Webpack) integration options, I decided to try to
