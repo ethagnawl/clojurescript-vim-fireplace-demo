@@ -110,3 +110,4 @@ begins with `Plug 'tpope`.
 - https://github.com/bhauman/figwheel-main/releases/tag/v0.2.6
 - https://figwheel.org/docs/npm.html
 - https://figwheel.org/docs/vim.html
+- https://figwheel.org/docs/scripting_api.html
