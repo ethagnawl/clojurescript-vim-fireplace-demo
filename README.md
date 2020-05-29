@@ -12,7 +12,7 @@ resurrect my old Vim/ClojureScript development environment and use it to run
 through the examples provided in the new guide.
 
 Needless to say, _a lot_ has changed in the last ~five years and my old setup
-did not work with the latest versions of ... just about everything.
+did not work with modern versions of ... just about everything.
 
 So, I decided to undertake an adventure and try and get this environment
 working, document my findings and share it with others. I sought and received
