@@ -52,7 +52,7 @@ Launch a Clojure REPL using the Clojure CLI tools and the Rebel Readline:
 ;; Out of habit, I send them from vim to a parallel tmux pane using vim-slime.
 
 (require 'figwheel.main.api)    ;; require Figwheel's scripting API
-(figwheel.main.api/start "dev") ;; start Figwheel build (uses dev.cljs.edn) and REPL
+(figwheel.main.api/start "dev") ;; start Figwheel build (using dev.cljs.edn) and REPL
 ```
 
 #### Vim CLI
