@@ -46,7 +46,7 @@ Launch a Clojure REPL using the Clojure CLI tools and the Rebel Readline:
 (start-nrepl-server!)                       ;; start nREPL server on 7888
 
 ;; Some people run the following commands using Vim-Fireplace's `:CljEval`
-;; command but I found that to be a little clunky to do manually.
+;; command but I found that to be a little clunky.
 ;; If I do end up using this workflow regularly, I'll consider packaging these
 ;; steps up in a VimScript helper function.
 ;; Out of habit, I send them from vim to a parallel tmux pane using vim-slime.
