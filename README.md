@@ -72,6 +72,18 @@ For example, try evaluating the following using `cpp` :
 If the environment is working as expected, you'll see an entry in your
 browser's JavaScript console.
 
+From there, you can begin interacting with the program running in your browser
+from Vim.
+
+For example, try evaluating the following forms (see src/fullstack/main.cljs):
+
+```
+(in-ns 'fullstack.main)
+(reset! name_ "Sarah")
+```
+
+... and switching back to your browser. The application's contents should have
+been updated to reflect the evaluated code.
 
 ## Thanks
 ### David Nolen
