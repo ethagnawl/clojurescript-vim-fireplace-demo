@@ -3,7 +3,7 @@
             [reagent.core :as rcore]
             [reagent.dom :as dom]))
 
-(def name_ (rcore/atom "world"))
+(def name_ (rcore/atom "Everybody"))
 
 (defn simple-component []
   [:p "Hello, " @name_ "!"])
@@ -13,5 +13,5 @@
 
 ; evaluate via Vim-Fireplace with `cpp` or `:CljsEval`
 ; (in-ns 'fullstack.main)
-; (.log js/console @name_)
-; (reset! name_ "Sarah")
+; (.log js/console "Success!")
+; (reset! name_ "CLJS")

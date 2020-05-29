@@ -5,9 +5,7 @@ This demo shows developers how to interact with a recent version of
 the ClojureScript REPL (specifically CLJS >= v1.10.741 and its new `:bundle`
 feature) via Vim-Fireplace and their _many_ friends.
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ethagnawl/clojurescript-vim-fireplace-demo/master/demo.gif" alt="Screenshot" width="80%" />
-</p>
+
 
 ## Why?
 When I saw the announcement about ClojureScript 1.10.741 and its new NPM
@@ -73,7 +71,7 @@ commands](https://github.com/tpope/vim-fireplace/blob/master/doc/fireplace.txt#L
 
 For example, try evaluating the following using `cpp` :
 
-`(.log js/console "Hello, world!")`
+`(.log js/console "Success!")`
 
 If the environment is working as expected, you'll see an entry in your
 browser's JavaScript console.
@@ -85,11 +83,17 @@ For example, try evaluating the following forms (see src/fullstack/main.cljs):
 
 ```
 (in-ns 'fullstack.main)
-(reset! name_ "Sarah")
+(reset! name_ "CLJS")
 ```
 
 ... and switching back to your browser. The application's contents should have
 been updated to reflect the evaluated code.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ethagnawl/clojurescript-vim-fireplace-demo/master/demo.gif" alt="Screenshot" width="80%" />
+</p>
+
+#### TODO: re-export screencap at a higher resolution
 
 ## Thanks
 ### David Nolen
