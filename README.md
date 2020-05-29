@@ -42,20 +42,23 @@ Launch a Clojure REPL using the Clojure CLI tools and the Rebel Readline:
 
 #### Clojure REPL
 ```
-(require '[fullstack.helpers :refer :all])
-(start-nrepl-server!)
-;; Some people run the following commands using Vim-Fireplace using the
-;; `:CljEval` command but I found that to be a little clunky to do manually.
-;; If I do end up using this workflow more often, I'll consider packaging
-;; these steps up in a VimScript function.
+(require '[fullstack.helpers :refer :all])  ;; import nREPL helpers
+(start-nrepl-server!)                       ;; start nREPL server on 7888
+
+;; Some people run the following commands using Vim-Fireplace's `:CljEval`
+;; command but I found that to be a little clunky to do manually.
+;; If I do end up using this workflow regularly, I'll consider packaging these
+;; steps up in a VimScript helper function.
 ;; Out of habit, I send them from vim to a parallel tmux pane using vim-slime.
-(require 'figwheel.main.api)
-(figwheel.main.api/start {:mode :serve} "dev")
-(figwheel.main.api/cljs-repl "dev")
+
+(require 'figwheel.main.api)    ;; require Figwheel's scripting API
+(figwheel.main.api/start "dev") ;; start Figwheel build (uses dev.cljs.edn) and REPL
 ```
 
 #### Vim CLI
-`:Piggieback (figwheel.main.api/repl-env "dev")`
+```
+:Piggieback (figwheel.main.api/repl-env "dev") " connect to the CLJS REPL
+```
 
 #### Vim-Fireplace
 You should now have an active connection to the ClojureScript REPL from within
