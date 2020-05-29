@@ -12,12 +12,12 @@ resurrect my old Vim/ClojureScript development environment and use it to run
 through the examples provided in the new guide.
 
 Needless to say, _a lot_ has changed in the last ~five years and my old setup
-did not work with the latest versions of ... just about everything: Vim,
-Vim-Fireplace, Clojure, ClojureScript, Figwheel, Piggieback, etc.
+did not work with the latest versions of ... just about everything.
 
-So, I undertook a month long adventure to try and get this environment working,
-document what I could and make it available to others. I sought and received
+So, I decided to undertake an adventure and try and get this environment
+working, document my findings and share it with others. I sought and received
 help from lots of people on Stack Overflow, /r/clojurescript and elsewhere.
+Also, the various guides and documentation linked below were very useful.
 
 I was also buoyed by the two recent releases of Figwheel (v0.2.5/6) which added
 support for these new CLJS features in a very short amount of time.
