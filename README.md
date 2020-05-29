@@ -5,7 +5,7 @@ This demo shows developers how to interact with a recent version of
 the ClojureScript REPL (specifically CLJS >= v1.10.741 and its new `:bundle`
 feature) via Vim-Fireplace and their _many_ friends.
 
-## Why
+## Why?
 When I saw the announcement about ClojureScript 1.10.741 and its new NPM
 and JavaScript bundler (e.g. Webpack) integration options, I decided to try to
 resurrect my old Vim/ClojureScript development environment and use it to run
@@ -22,7 +22,7 @@ help from lots of people on Stack Overflow, /r/clojurescript and elsewhere.
 I was also buoyed by the two recent releases of Figwheel (v0.2.5/6) which added
 support for these new CLJS features in a very short amount of time.
 
-## How
+## How?
 You can follow along by [installing Clojure and the CLI tools](https://www.clojure.org/guides/getting_started) and
 cloning this repository.
 
