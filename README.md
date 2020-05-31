@@ -22,7 +22,10 @@ help from lots of people on Stack Overflow, /r/clojurescript and elsewhere.
 Also, the various guides and documentation linked below were very useful.
 
 I was also buoyed by the two recent releases of Figwheel (v0.2.5/6) which added
-support for these new CLJS features in a very short amount of time.
+support for these new CLJS features in a very short amount of time. [The
+accompanying guide](https://figwheel.org/docs/npm.html) is also invaluable when coming up to speed with these
+latest features.
+
 
 ## How?
 You can follow along by [installing Clojure and the CLI tools](https://www.clojure.org/guides/getting_started) and
